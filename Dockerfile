@@ -20,6 +20,4 @@ RUN apk --no-cache add ca-certificates openssl curl \
 COPY  config.json /etc/statuzpage-agent/config.json
 COPY --from=builder /statuzpage-agent/statuzpage-agent .
 
-EXPOSE 8000
-
 CMD ["./statuzpage-agent"]
