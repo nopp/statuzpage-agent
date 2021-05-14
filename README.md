@@ -1,10 +1,20 @@
-# Statuzpage Agent
+Main Project [StatuZpage](https://github.com/nopp/statuzpage)
 
-Requirements:
-=============
-    go get github.com/go-sql-driver/mysql
-    go get github.com/jasonlvhit/gocron
+# StatuZpage Agent
 
-Configurations:
-===============
-Change informations of config.json and copy to /etc/statuzpage-agent/config.json
+Responsible for monitoring all urls.
+
+## Configurations:
+Default config dir: /etc/statuzpage-agent/config.json
+* statuzpage-api: ip:port
+* mysql-host: ip
+* mysql-user: mysql user
+* mysql-password: mysql password
+* mysql-db: statuzpage(default)
+* token: the same token configured on StatuZpage API
+
+## Build:
+$ go build
+
+## Start
+$ ./statuzpage-agent
