@@ -4,8 +4,7 @@ Main Project [StatuZpage](https://github.com/nopp/statuzpage)
 
 Responsible for monitoring all urls.
 
-Configurations:
-===============
+## Configurations:
 Default config dir: /etc/statuzpage-agent/config.json
 * statuzpage-api: ip:port
 * mysql-host: ip
@@ -14,10 +13,8 @@ Default config dir: /etc/statuzpage-agent/config.json
 * mysql-db: statuzpage(default)
 * token: the same token configured on StatuZpage API
 
-Build:
-======
+## Build:
 $ go build
 
-Start
-=====
+## Start
 $ ./statuzpage-agent
