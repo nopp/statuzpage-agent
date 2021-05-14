@@ -18,3 +18,6 @@ $ go build
 
 ## Start
 $ ./statuzpage-agent
+
+## Docker Hub Image
+https://hub.docker.com/r/noppp/statuzpage-agent
