@@ -20,7 +20,7 @@ func LoadConfiguration() config {
 
 	var config config
 
-	configFile, err := ioutil.ReadFile("/etc/statuzpage-agent/config.json")
+	configFile, err := ioutil.ReadFile("./config.json")
 	if err != nil {
 		fmt.Println(err)
 	}
